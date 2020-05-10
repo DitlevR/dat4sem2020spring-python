@@ -42,8 +42,3 @@ def findheadlines(arg1):
                 if line.startswith('#'):
                     print(line)
 
-
-if __name__ == '__main__':
-    # writeFileNamesRecursively(sys.argv[1], sys.argv[2])
-    # readFirstWord(sys.argv[1])
-    findheadlines(sys.argv[1])
